@@ -2,8 +2,9 @@ module.exports = {
   content: ["./src/**/*.{html,njk,md}"],
   theme: {
     fontFamily: {
-			baiJam: ['Bai Jamjuree', 'serif'],
-			lato: ['Lato', 'sans-serif'],
+			montserrat: ['Montserrat', 'sans-serif'],
+			poppins: ['Poppins', 'sans-serif'],
+			roboto: ['Roboto', 'sans-serif']
 		},
 		screens: {
 			xs: "530px",
@@ -17,11 +18,9 @@ module.exports = {
 
 		extend: {
 			colors: {
-				"tritonBlue": "#01529a",
-				"tritonGreen": "#27b061",
-				"tritonBlack": "#1f2022",
-				"tritonGray": "#818181",
-				"tritonLight": "#fbfbfb"
+				"solarBlue": "#0a3e76",
+				"solarBlack": "#111b27",
+				"solarGray": "#ebebeb",
 			}
 		}
   },
