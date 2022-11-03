@@ -4,7 +4,7 @@
 
 @layer base {
 	html {
-		@apply  antialiased;
+		@apply antialiased;
 	}
 
 	[x-cloak] {
@@ -12,3 +12,15 @@
 	}
 }
 
+
+.button {
+	@apply font-poppins font-bold text-lg 2xl:text-xl uppercase px-7 2xl:px-8 py-4 2xl:py-5 inline-block;
+
+	&.primary-white {
+		@apply text-solarBlack bg-white shadow;
+	}
+
+	&.primary-blue {
+		@apply text-[#f7f9ff] bg-solarBlue;
+	}
+}
