@@ -16,6 +16,7 @@ module.exports = (eleventyConfig) => {
 				middlewareMode: true,
 			},
 			build: {
+				assetsInlineLimit: 0,
 				sourcemap: "true",
 				manifest: true,
 				rollupOptions: {
